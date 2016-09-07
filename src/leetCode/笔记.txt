@@ -1,0 +1,15 @@
+8.16
+1.如果是数组，结果不管顺序的话，一定不要忘记试试两个指针的算法。
+
+2.遍历map的一种方式， 
+       for (Map.Entry<Integer,Integer> entry : map1.entrySet()) {
+        	entery.getValue();
+        	entery.getKey();
+        }
+其余三种 http://www.cnblogs.com/kristain/articles/2033566.html
+
+3数组的长度用length;字符串的用length();collection和map的用size();
+
+4 Collection.toArray 第一种方式，直接返回Objcect[];第二种方式要往里传一个想要的类型的数组，因为大小不确定,可以直接传一个大小为0的，因为如果够的话，就返回传的那个，不够的话，会自己造一个，反正也是死的。
+
+5Integer[] 和int[]不能互相强转；
